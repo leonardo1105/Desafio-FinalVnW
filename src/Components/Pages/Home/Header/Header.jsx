@@ -7,7 +7,7 @@ export default function Header(){
       <h1>Leonardo Nunes Marques</h1>
       <ul>
         <Link to="/objetivos_sustentaveis"><li>Objetivos Sustentáveis</li></Link>
-        <li></li>
+        <Link><li>Projetos</li></Link>
         <li></li>
       </ul>
     </header>
