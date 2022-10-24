@@ -1,5 +1,6 @@
 import React,{useState,useRef} from 'react';
 import * as S from './StyleCard';
+import Header from '../Home/Header/Header'
 
 export default function Onu(){ 
   const refContainer=useRef(null)
@@ -63,6 +64,7 @@ export default function Onu(){
         <S.Carta onClick={() => {modal(item)}}>
           <p>{item.num}</p>
           <h2>{item.title}</h2>
+          <span>+</span>
         </S.Carta>
       ))}</S.CardContainer>
       </S.Caixa>
